@@ -11,7 +11,7 @@ const DeckLayout = styled.View`
   justify-content: space-between;
   width: 100%;
   background-color: ${darkBlue};
-  padding: 10%;
+  padding: 10px;
 `;
 
 const TextContainer = styled.View`

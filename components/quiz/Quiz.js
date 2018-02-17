@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import styled from "styled-components/native";
 import { NavigationActions } from "react-navigation";
 import QuizResult from "./QuizResult";
-import { darkBlue, pink, blue } from "../../common/colors";
+import { darkBlue, pink, blue, purple } from "../../common/colors";
 
 const DeckFont = styled.Text`
   font-size: 35px;
@@ -56,7 +56,7 @@ const CorrectTrigger = styled.TouchableOpacity`
   background-color: ${pink};
   width: 50%;
   height: 20%;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 0 10px;
   align-items: center;
   justify-content: center;
 `;
@@ -65,7 +65,7 @@ const InCorrectTrigger = styled.TouchableOpacity`
   background-color: ${blue};
   width: 50%;
   height: 20%;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 0 10px;
   align-items: center;
   justify-content: center;
 `;
@@ -181,7 +181,7 @@ class Quiz extends Component {
             </DeckFont>
           ) : (
             <TouchableOpacity onPress={() => this.setState({ showAnswer: true })}>
-              <Text>Show answer</Text>
+              <Text style={{color: purple}}>Show answer</Text>
             </TouchableOpacity>
           )}
         </TextView>

@@ -53,6 +53,7 @@ const ResultsBox = styled.View`
 
 const ResultsText = styled.Text`
   flex: 1;
+  width: 100%;
   font-size: 18px;
   color: ${white};
   align-items: stretch;
@@ -60,7 +61,6 @@ const ResultsText = styled.Text`
 `;
 
 const ResultsCounter = styled.Text`
-  flex: 1;
   margin-left: 10px;
   font-weight: 800;
 `;
@@ -92,18 +92,18 @@ export default class Result extends Component {
 
         <ResultsBox>
           <ResultsText>
-            <Text>Right answers:</Text>
-            <ResultsCounter>{correctAnswers}</ResultsCounter>
+            <Text style={{paddingRight: 10}}>Right answers:</Text>
+            <ResultsCounter style={{marginLeft: 10}}>{correctAnswers}</ResultsCounter>
           </ResultsText>
 
           <ResultsText>
-            <Text>Wrong answers:</Text>
-            <ResultsCounter>{incorrectAnswers}</ResultsCounter>
+            <Text style={{paddingRight: 10}}>Wrong answers:</Text>
+            <ResultsCounter style={{marginLeft: 10}}>{incorrectAnswers}</ResultsCounter>
           </ResultsText>
 
           <ResultsText>
-            Total answers:
-            <ResultsCounter>{this.props.total}</ResultsCounter>
+            <Text style={{paddingRight: 10}}>Total answers:</Text>
+            <ResultsCounter style={{marginLeft: 10}}>{this.props.total}</ResultsCounter>
           </ResultsText>
         </ResultsBox>
 

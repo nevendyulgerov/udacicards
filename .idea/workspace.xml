@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7efff740-7a5c-442a-b511-7df581d454d2" name="Default" comment="" />
+    <list default="true" id="7efff740-7a5c-442a-b511-7df581d454d2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,8 +16,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -27,11 +30,195 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NewDeck.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/deck/NewDeck.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-504">
+              <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+              <folding>
+                <marker date="1518886053703" expanded="true" signature="7:318" ph="..." />
+                <marker date="1518886053703" expanded="true" signature="1006:2753" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1058:1082" ph="{&quot;title&quot;: `Decks`...}" />
+                <marker date="1518886053703" expanded="true" signature="1096:1116" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1121:1173" ph="/** @description Component did mount hook ...*/" />
+                <marker date="1518886053703" expanded="true" signature="1196:1326" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1263:1320" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1330:1413" ph="/** @description Component will receive props hook ...*/" />
+                <marker date="1518886053703" expanded="true" signature="1453:1585" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1512:1579" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1589:1632" ph="/** @description Initialize quiz ...*/" />
+                <marker date="1518886053703" expanded="true" signature="1652:1792" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1797:1849" ph="/** @description Render ...*/" />
+                <marker date="1518886053703" expanded="true" signature="1861:2751" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="1972:2002" ph="{...}" />
+                <marker date="1518886053703" expanded="true" signature="2022:2740" ph="&lt;DeckLayout/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2044:2227" ph="&lt;TextContainer/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2116:2202" ph="&lt;QuestionsCount/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2237:2719" ph="&lt;ActionContainer/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2311:2463" ph="&lt;ButtonView/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2338:2437" ph="&lt;Button/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2488:2692" ph="&lt;ButtonView/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2513:2668" ph="&lt;Button/&gt;" />
+                <marker date="1518886053703" expanded="true" signature="2789:2807" ph="{&quot;decks&quot;: state...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddQuizCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/quiz/AddQuizCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+              <folding>
+                <marker date="1518886061673" expanded="true" signature="7:329" ph="..." />
+                <marker date="1518886061673" expanded="true" signature="552:2054" ph="{...}" />
+                <marker date="1518886061673" expanded="true" signature="604:663" ph="{&quot;title&quot;: `Decks / ${navigation.state.params.title}`...}" />
+                <marker date="1518886061673" expanded="true" signature="676:710" ph="{&quot;question&quot;: ''...}" />
+                <marker date="1518886061673" expanded="true" signature="715:779" ph="/** @description Navigate back ...*/" />
+                <marker date="1518886061673" expanded="true" signature="837:878" ph="/** @description Handle submit ...*/" />
+                <marker date="1518886061673" expanded="true" signature="901:1198" ph="{...}" />
+                <marker date="1518886061673" expanded="true" signature="983:1059" ph="{...}" />
+                <marker date="1518886061673" expanded="true" signature="1102:1192" ph="{...}" />
+                <marker date="1518886061673" expanded="true" signature="1203:1264" ph="/** @description Set question ...*/" />
+                <marker date="1518886061673" expanded="true" signature="1324:1381" ph="/** @description Set answer ...*/" />
+                <marker date="1518886061673" expanded="true" signature="1435:1487" ph="/** @description Render ...*/" />
+                <marker date="1518886061673" expanded="true" signature="1498:2052" ph="{...}" />
+                <marker date="1518886061673" expanded="true" signature="1514:2044" ph="&lt;TextLayout/&gt;" />
+                <marker date="1518886061673" expanded="true" signature="1531:1715" ph="&lt;TextInput/&gt;" />
+                <marker date="1518886061673" expanded="true" signature="1720:1898" ph="&lt;TextInput/&gt;" />
+                <marker date="1518886061673" expanded="true" signature="1903:2027" ph="&lt;ButtonView/&gt;" />
+                <marker date="1518886061673" expanded="true" signature="1921:2009" ph="&lt;Button/&gt;" />
+                <marker date="1518886061673" expanded="true" signature="2096:2180" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/quiz/Quiz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1518887638285" expanded="true" signature="7:341" ph="..." />
+                <marker date="1518887638285" expanded="true" signature="1497:4661" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="1549:1608" ph="{&quot;title&quot;: `Decks / ${navigation.state.params.title}`...}" />
+                <marker date="1518887638285" expanded="true" signature="1645:1798" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="1803:1850" ph="/** @description Go to next question ...*/" />
+                <marker date="1518887638285" expanded="true" signature="1878:2126" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="1948:1988" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="1994:2122" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2030:2113" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2131:2179" ph="/** @description Display final result ...*/" />
+                <marker date="1518887638285" expanded="true" signature="2209:2287" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2229:2281" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2292:2341" ph="/** @description Handle correct answer ...*/" />
+                <marker date="1518887638285" expanded="true" signature="2372:2457" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2462:2513" ph="/** @description Handle incorrect answer ...*/" />
+                <marker date="1518887638285" expanded="true" signature="2574:2612" ph="/** @description Reset quiz ...*/" />
+                <marker date="1518887638285" expanded="true" signature="2633:2707" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2712:2750" ph="/** @description Go to deck ...*/" />
+                <marker date="1518887638285" expanded="true" signature="2770:3127" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2880:3072" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="2913:3066" ph="[...]" />
+                <marker date="1518887638285" expanded="true" signature="3132:3184" ph="/** @description Render ...*/" />
+                <marker date="1518887638285" expanded="true" signature="3196:4659" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="3322:3608" ph="{...}" />
+                <marker date="1518887638285" expanded="true" signature="3347:3593" ph="&lt;QuizResult/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="3628:4648" ph="&lt;QuizView/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="3647:3795" ph="&lt;CountView/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="3669:3774" ph="&lt;CountFont/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="3805:4304" ph="&lt;TextView/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="3826:3927" ph="&lt;DeckFont/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="3977:4101" ph="&lt;DeckFont/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="4130:4271" ph="&lt;TouchableOpacity/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="4314:4630" ph="&lt;ButtonContainer/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="4342:4463" ph="&lt;CorrectTrigger/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="4475:4603" ph="&lt;InCorrectTrigger/&gt;" />
+                <marker date="1518887638285" expanded="true" signature="4697:4715" ph="{&quot;decks&quot;: state...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuizResult.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/quiz/QuizResult.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1518884706312" expanded="true" signature="7:198" ph="..." />
+                <marker date="1518884706312" expanded="true" signature="1345:2604" ph="{...}" />
+                <marker date="1518884706312" expanded="true" signature="1350:1418" ph="/** @description Redirect ...*/" />
+                <marker date="1518884706312" expanded="true" signature="1464:1520" ph="/** @description Reset quiz ...*/" />
+                <marker date="1518884706312" expanded="true" signature="1568:1620" ph="/** @description Render ...*/" />
+                <marker date="1518884706312" expanded="true" signature="1632:2602" ph="{...}" />
+                <marker date="1518884706312" expanded="true" signature="1772:2591" ph="&lt;ResultView/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="1794:2274" ph="&lt;ResultsBox/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="1817:1957" ph="&lt;ResultsText/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="1969:2111" ph="&lt;ResultsText/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="2123:2252" ph="&lt;ResultsText/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="2284:2570" ph="&lt;ButtonBox/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="2306:2425" ph="&lt;RestartTrigger/&gt;" />
+                <marker date="1518884706312" expanded="true" signature="2437:2549" ph="&lt;BackTrigger/&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/actions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding>
+                <marker date="1518803825365" expanded="true" signature="7:83" ph="..." />
+                <marker date="1518803825365" expanded="true" signature="85:198" ph="/** @description Add new card ...*/" />
+                <marker date="1518803825365" expanded="true" signature="246:290" ph="{&quot;type&quot;: ADD_NEW_CARD...}" />
+                <marker date="1518803825365" expanded="true" signature="294:381" ph="/** @description Add new deck ...*/" />
+                <marker date="1518803825365" expanded="true" signature="420:455" ph="{&quot;type&quot;: ADD_NEW_DECK...}" />
+                <marker date="1518803825365" expanded="true" signature="459:544" ph="/** @description Retrieve decks ...*/" />
+                <marker date="1518803825365" expanded="true" signature="584:619" ph="{&quot;type&quot;: RETRIEVE_DECKS...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <marker date="1518803991743" expanded="true" signature="7:128" ph="..." />
+                <marker date="1518803991743" expanded="true" signature="182:620" ph="{...}" />
+                <marker date="1518803991743" expanded="true" signature="207:618" ph="{...}" />
+                <marker date="1518803991743" expanded="true" signature="231:413" ph="..." />
+                <marker date="1518803991743" expanded="true" signature="263:411" ph="{...}" />
+                <marker date="1518803991743" expanded="true" signature="289:403" ph="{&quot;title&quot;: action.title...}" />
+                <marker date="1518803991743" expanded="true" signature="436:512" ph="..." />
+                <marker date="1518803991743" expanded="true" signature="537:581" ph="..." />
+                <marker date="1518803991743" expanded="true" signature="594:614" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -46,6 +233,7 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -61,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,21 +261,35 @@
               <item name="udacicards" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="udacicards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udacicards" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udacicards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udacicards" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../udaci-cards" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="C:\repositories\sofiahardcode\udacicards\node_modules\eslint" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,33 +316,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518887925383</updated>
-      <workItem from="1518887926917" duration="1391000" />
+      <workItem from="1518887926917" duration="1604000" />
+      <workItem from="1518889955391" duration="475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1391000" />
+    <option name="totallyTimeSpent" value="2079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14828898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14828898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -159,11 +362,185 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="272">
             <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/deck/NewDeck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+          <folding>
+            <marker date="1518886053703" expanded="true" signature="7:318" ph="..." />
+            <marker date="1518886053703" expanded="true" signature="1006:2753" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1058:1082" ph="{&quot;title&quot;: `Decks`...}" />
+            <marker date="1518886053703" expanded="true" signature="1096:1116" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1121:1173" ph="/** @description Component did mount hook ...*/" />
+            <marker date="1518886053703" expanded="true" signature="1196:1326" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1263:1320" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1330:1413" ph="/** @description Component will receive props hook ...*/" />
+            <marker date="1518886053703" expanded="true" signature="1453:1585" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1512:1579" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1589:1632" ph="/** @description Initialize quiz ...*/" />
+            <marker date="1518886053703" expanded="true" signature="1652:1792" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1797:1849" ph="/** @description Render ...*/" />
+            <marker date="1518886053703" expanded="true" signature="1861:2751" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="1972:2002" ph="{...}" />
+            <marker date="1518886053703" expanded="true" signature="2022:2740" ph="&lt;DeckLayout/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2044:2227" ph="&lt;TextContainer/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2116:2202" ph="&lt;QuestionsCount/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2237:2719" ph="&lt;ActionContainer/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2311:2463" ph="&lt;ButtonView/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2338:2437" ph="&lt;Button/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2488:2692" ph="&lt;ButtonView/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2513:2668" ph="&lt;Button/&gt;" />
+            <marker date="1518886053703" expanded="true" signature="2789:2807" ph="{&quot;decks&quot;: state...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/quiz/AddQuizCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding>
+            <marker date="1518886061673" expanded="true" signature="7:329" ph="..." />
+            <marker date="1518886061673" expanded="true" signature="552:2054" ph="{...}" />
+            <marker date="1518886061673" expanded="true" signature="604:663" ph="{&quot;title&quot;: `Decks / ${navigation.state.params.title}`...}" />
+            <marker date="1518886061673" expanded="true" signature="676:710" ph="{&quot;question&quot;: ''...}" />
+            <marker date="1518886061673" expanded="true" signature="715:779" ph="/** @description Navigate back ...*/" />
+            <marker date="1518886061673" expanded="true" signature="837:878" ph="/** @description Handle submit ...*/" />
+            <marker date="1518886061673" expanded="true" signature="901:1198" ph="{...}" />
+            <marker date="1518886061673" expanded="true" signature="983:1059" ph="{...}" />
+            <marker date="1518886061673" expanded="true" signature="1102:1192" ph="{...}" />
+            <marker date="1518886061673" expanded="true" signature="1203:1264" ph="/** @description Set question ...*/" />
+            <marker date="1518886061673" expanded="true" signature="1324:1381" ph="/** @description Set answer ...*/" />
+            <marker date="1518886061673" expanded="true" signature="1435:1487" ph="/** @description Render ...*/" />
+            <marker date="1518886061673" expanded="true" signature="1498:2052" ph="{...}" />
+            <marker date="1518886061673" expanded="true" signature="1514:2044" ph="&lt;TextLayout/&gt;" />
+            <marker date="1518886061673" expanded="true" signature="1531:1715" ph="&lt;TextInput/&gt;" />
+            <marker date="1518886061673" expanded="true" signature="1720:1898" ph="&lt;TextInput/&gt;" />
+            <marker date="1518886061673" expanded="true" signature="1903:2027" ph="&lt;ButtonView/&gt;" />
+            <marker date="1518886061673" expanded="true" signature="1921:2009" ph="&lt;Button/&gt;" />
+            <marker date="1518886061673" expanded="true" signature="2096:2180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/quiz/Quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518887638285" expanded="true" signature="7:341" ph="..." />
+            <marker date="1518887638285" expanded="true" signature="1497:4661" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="1549:1608" ph="{&quot;title&quot;: `Decks / ${navigation.state.params.title}`...}" />
+            <marker date="1518887638285" expanded="true" signature="1645:1798" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="1803:1850" ph="/** @description Go to next question ...*/" />
+            <marker date="1518887638285" expanded="true" signature="1878:2126" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="1948:1988" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="1994:2122" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2030:2113" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2131:2179" ph="/** @description Display final result ...*/" />
+            <marker date="1518887638285" expanded="true" signature="2209:2287" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2229:2281" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2292:2341" ph="/** @description Handle correct answer ...*/" />
+            <marker date="1518887638285" expanded="true" signature="2372:2457" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2462:2513" ph="/** @description Handle incorrect answer ...*/" />
+            <marker date="1518887638285" expanded="true" signature="2574:2612" ph="/** @description Reset quiz ...*/" />
+            <marker date="1518887638285" expanded="true" signature="2633:2707" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2712:2750" ph="/** @description Go to deck ...*/" />
+            <marker date="1518887638285" expanded="true" signature="2770:3127" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2880:3072" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="2913:3066" ph="[...]" />
+            <marker date="1518887638285" expanded="true" signature="3132:3184" ph="/** @description Render ...*/" />
+            <marker date="1518887638285" expanded="true" signature="3196:4659" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="3322:3608" ph="{...}" />
+            <marker date="1518887638285" expanded="true" signature="3347:3593" ph="&lt;QuizResult/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="3628:4648" ph="&lt;QuizView/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="3647:3795" ph="&lt;CountView/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="3669:3774" ph="&lt;CountFont/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="3805:4304" ph="&lt;TextView/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="3826:3927" ph="&lt;DeckFont/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="3977:4101" ph="&lt;DeckFont/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="4130:4271" ph="&lt;TouchableOpacity/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="4314:4630" ph="&lt;ButtonContainer/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="4342:4463" ph="&lt;CorrectTrigger/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="4475:4603" ph="&lt;InCorrectTrigger/&gt;" />
+            <marker date="1518887638285" expanded="true" signature="4697:4715" ph="{&quot;decks&quot;: state...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/quiz/QuizResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518884706312" expanded="true" signature="7:198" ph="..." />
+            <marker date="1518884706312" expanded="true" signature="1345:2604" ph="{...}" />
+            <marker date="1518884706312" expanded="true" signature="1350:1418" ph="/** @description Redirect ...*/" />
+            <marker date="1518884706312" expanded="true" signature="1464:1520" ph="/** @description Reset quiz ...*/" />
+            <marker date="1518884706312" expanded="true" signature="1568:1620" ph="/** @description Render ...*/" />
+            <marker date="1518884706312" expanded="true" signature="1632:2602" ph="{...}" />
+            <marker date="1518884706312" expanded="true" signature="1772:2591" ph="&lt;ResultView/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="1794:2274" ph="&lt;ResultsBox/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="1817:1957" ph="&lt;ResultsText/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="1969:2111" ph="&lt;ResultsText/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="2123:2252" ph="&lt;ResultsText/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="2284:2570" ph="&lt;ButtonBox/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="2306:2425" ph="&lt;RestartTrigger/&gt;" />
+            <marker date="1518884706312" expanded="true" signature="2437:2549" ph="&lt;BackTrigger/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <marker date="1518803825365" expanded="true" signature="7:83" ph="..." />
+            <marker date="1518803825365" expanded="true" signature="85:198" ph="/** @description Add new card ...*/" />
+            <marker date="1518803825365" expanded="true" signature="246:290" ph="{&quot;type&quot;: ADD_NEW_CARD...}" />
+            <marker date="1518803825365" expanded="true" signature="294:381" ph="/** @description Add new deck ...*/" />
+            <marker date="1518803825365" expanded="true" signature="420:455" ph="{&quot;type&quot;: ADD_NEW_DECK...}" />
+            <marker date="1518803825365" expanded="true" signature="459:544" ph="/** @description Retrieve decks ...*/" />
+            <marker date="1518803825365" expanded="true" signature="584:619" ph="{&quot;type&quot;: RETRIEVE_DECKS...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <marker date="1518803991743" expanded="true" signature="7:128" ph="..." />
+            <marker date="1518803991743" expanded="true" signature="182:620" ph="{...}" />
+            <marker date="1518803991743" expanded="true" signature="207:618" ph="{...}" />
+            <marker date="1518803991743" expanded="true" signature="231:413" ph="..." />
+            <marker date="1518803991743" expanded="true" signature="263:411" ph="{...}" />
+            <marker date="1518803991743" expanded="true" signature="289:403" ph="{&quot;title&quot;: action.title...}" />
+            <marker date="1518803991743" expanded="true" signature="436:512" ph="..." />
+            <marker date="1518803991743" expanded="true" signature="537:581" ph="..." />
+            <marker date="1518803991743" expanded="true" signature="594:614" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

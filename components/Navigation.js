@@ -20,23 +20,17 @@ const navigationOptions = {
 const navItems = {
   Decks: {
     screen: DeckListView,
-    navigationOptions: {
-      tabBarLabel: 'Decks'
-    }
+    navigationOptions: { tabBarLabel: 'Decks' }
   },
   AddDeck: {
     screen: AddDeck,
-    navigationOptions: {
-      tabBarLabel: 'New Deck'
-    }
+    navigationOptions: { tabBarLabel: 'New Deck' }
   }
 };
 
 const navOptions = {
   tabBarOptions: {
-    style: {
-      backgroundColor: lightBlue
-    },
+    style: { backgroundColor: lightBlue },
     activeTintColor: darkBlue,
     inactiveTintColor: blue
   },

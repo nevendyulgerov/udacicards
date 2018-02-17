@@ -8,7 +8,7 @@ import {
   AsyncStorage
 } from "react-native";
 import { darkBlue, lightBlue } from "../../common/colors";
-
+import * as api from "../../common/api";
 import styled from "styled-components/native";
 import { retrieveDecks } from '../../store/actions/';
 
@@ -55,20 +55,15 @@ class DeckListView extends React.Component {
    * @description Component did mount hook
    * @returns {Promise<void>}
    */
-  async componentDidMount() {
+  componentDidMount() {
 
-    // TODO: Replace api call
-
-    try {
-      let response = await AsyncStorage.getItem("decks");
-      let decks = (await JSON.parse(response)) || {};
+    api.retrieveDecks((err, decks) => {
       this.setState({
         decksData: decks
       });
+
       this.props.retrieveDecks(decks);
-    } catch (error) {
-      console.log(error);
-    }
+    });
   }
 
   /**
@@ -77,6 +72,13 @@ class DeckListView extends React.Component {
    * @returns {*}
    */
   getKey = item => item;
+
+  navigate = (item) => {
+    const { navigate } = this.props.navigation;
+    navigate('DeckView', {
+      deckID: item
+    });
+  };
 
   /**
    * @description Render deck item
@@ -87,7 +89,7 @@ class DeckListView extends React.Component {
     const { navigate } = this.props.navigation;
     const target = this.props.decksData[item];
     return (
-      <DeckLayout onPress={() => navigate('DeckView', {deckID: item})}>
+      <DeckLayout onPress={() => this.navigate(item)}>
         <DeckTitle>
           {target.title}
         </DeckTitle>
@@ -99,16 +101,16 @@ class DeckListView extends React.Component {
   };
 
   render() {
-    if (this.props.decksData) {
-      return (
-        <DecksList
-          data={Object.keys(this.props.decksData)}
-          keyExtractor={this.getKey}
-          renderItem={this.renderDeckItem}
-        />
-      );
+    if (!this.props.decksData) {
+      return <View />;
     }
-    return <View />;
+    return (
+      <DecksList
+        data={Object.keys(this.props.decksData)}
+        keyExtractor={this.getKey}
+        renderItem={this.renderDeckItem}
+      />
+    );
   }
 }
 
