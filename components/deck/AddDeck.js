@@ -56,15 +56,15 @@ class AddDeck extends React.Component {
   handleSubmit = () => {
     saveNewDeck(this.state.newDeckTitle, deck => {
       this.props.addNewDeck(deck);
-      this.redirect();
+      this.redirect(deck);
     });
   };
 
   /**
    * @description Redirect
    */
-  redirect = () => {
-    const actions = [ NavigationActions.navigate({ routeName: 'Home'}) ];
+  redirect = deck => {
+    const actions = [ NavigationActions.navigate({ routeName: 'DeckView', params: {deckID: deck.title}}) ];
     const resetAction = NavigationActions.reset({ index: 0, actions });
     this.props.navigation.dispatch(resetAction);
   };
